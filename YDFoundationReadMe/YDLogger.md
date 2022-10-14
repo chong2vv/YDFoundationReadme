@@ -21,6 +21,10 @@
 
 同时，为了方便快速查看日志，可以用YDLogger自带的YDLoggerUI：
 
+<span id="YDLoggerUI"></span>
+
+## YDLoggerUI
+
 ``` Objective-C
  YDLogListViewController *vc = [[YDLogListViewController alloc] init];
  [self.navigationController pushViewController:vc animated:YES];
