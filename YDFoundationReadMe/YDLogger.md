@@ -1,6 +1,12 @@
 
 # YDLogger 日志库使用
 
+单独使用YDLogger日志库可以通过如下方式集成：
+
+``` cocoapods
+pod 'YDFoundation/YDLogger'
+```
+
 如果想使用YDLogger日志收集系统，可在本地开启日志（YDAvoidCrash becomeAllEffectiveWithLogger:YES]）后使用：
 
 ``` Objective-C
@@ -22,6 +28,12 @@
 同时，为了方便快速查看日志，可以用YDLogger自带的YDLoggerUI：
 
 <span id="YDLoggerUI"></span>
+
+集成方式：
+
+``` cocoapods
+pod 'YDFoundation/YDLoggerUI'
+```
 
 ## YDLoggerUI
 
