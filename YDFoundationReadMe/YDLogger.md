@@ -1,7 +1,11 @@
 
 # YDLogger 日志库使用
 
-单独使用YDLogger日志库可以通过如下方式集成：
+YDLogger是封装的一个日志库
+
+## 集成方式
+
+单独使用YDLogger日志库可以通过如下方式集成：·
 
 ``` cocoapods
 pod 'YDFoundation/YDLogger'
@@ -12,7 +16,7 @@ pod 'YDFoundation/YDLogger'
 ``` Objective-C
 /**
  日志记录宏，只记录到本地，使用方法和NSLog相同，引用当前文件后可直接使用
- 根据日志level的不同，记录的日志不同
+ 根据日志level的不同，记录的日志不同·
  当调用setLogLevel:设置需要记录的日志level为YDLogDebug时，那么YDLogDebug等级以下的等级（含YDLogDebug）都会被记录
  默认设置为YDLogDetail
  
