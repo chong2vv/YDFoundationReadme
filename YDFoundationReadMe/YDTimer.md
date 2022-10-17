@@ -24,8 +24,6 @@ pod 'YDFoundation/YDTimer'
  */
 +(nullable instancetype)sharedTimer;
 
-
-
 /**
  *
  *  开启计时器
@@ -43,8 +41,6 @@ pod 'YDFoundation/YDTimer'
                  timeInterval:(NSTimeInterval)interval
               leewayInseconds:(NSTimeInterval)seconds
                       handler:(nullable YDTimerHandler)handler;
-
-
 
 /**
  *

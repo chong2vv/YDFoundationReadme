@@ -1,5 +1,7 @@
 # YDUtilKit 通用工具包使用
 
+## 集成方式
+
 单独使用`YDUtilKit`工具库可以通过如下方式集成：
 
 ``` cocoapods
@@ -12,3 +14,5 @@ YDUtilKit 由以下组件库构成：
 - [YDTools](YDTools.md) 基本工具库
 - [YDBaseUI](YDBaseUI.md) 基本UI组件库
 - [YDFuncKit](YDFuncKit.md) 基本函数库
+
+使用方式可查看对应组件库的文档。
