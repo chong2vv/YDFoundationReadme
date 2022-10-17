@@ -56,3 +56,4 @@ YDSafeThreadPool:
 - (BOOL)executeTaskToFreeThread:(YDLoopTask)task;
 ```
 
+`YDThreadSafeMutableSet`、`YDThreadSafeMutableArray`、`YDThreadSafeMutableDictionary`的使用方式和系统的`NSMutableSet`、`NSMutableArray`、`NSMutableDictionary`使用方式一致。
